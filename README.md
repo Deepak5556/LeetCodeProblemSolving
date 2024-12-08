@@ -32,4 +32,4 @@ Each folder contains solution files with the problem description, my approach, a
 3. Feel free to clone the repository and try out the solutions on your local system or LeetCode.  
 
 ```bash
-git clone https://github.com/YourUsername/LeetCode-Solutions.git](https://github.com/Deepak5556/Problem-Solving
+git clone https://github.com/Deepak5556/Problem-Solving
