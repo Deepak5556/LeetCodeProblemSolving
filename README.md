@@ -1,35 +1,11 @@
-# LeetCode Solutions by Deepak Kumar V  
+# LeetCode
 
-Welcome to my repository of solutions for various LeetCode problems! 🚀  
+This repository contains my solutions to LeetCode problems.
 
-This repository is a collection of coding challenges I have solved on [LeetCode](https://leetcode.com/). It serves as a personal archive of my coding journey, and I'm sharing it to help others understand different approaches to problem-solving.  
+Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 
-## 🗂️ Repository Structure  
+ ## Made by 
+ - Tut: [GitHub](https://github.com/TutTrue) - [LinkedIn](https://www.linkedin.com/in/mahmoud-hamdy-8b6825245/)
+ - Hüsam: [GitHub](https://github.com/husamahmud) - [LinkedIn](https://www.linkedin.com/in/husamahmud/)
 
-The solutions are organized into folders based on problem categories and difficulty levels:  
-
-- **Categories**: Arrays, Strings, Linked Lists, Trees, Graphs, etc.  
-- **Difficulty Levels**: Easy, Medium, Hard  
-
-Each folder contains solution files with the problem description, my approach, and the implemented code.  
-
-## 🛠️ Technologies Used  
-
-- **Languages**:   
-  - Java  
-
-- **Tools**:  
-  - [LeetCode Editor](https://leetcode.com/problemset/all/)  
-  - Integrated Development Environment (IDE) of choice  
-
-## 🔍 How to Use  
-
-1. Browse through the folders to find the problem you're looking for.  
-2. Each solution file includes:  
-   - Problem description  
-   - Explanation of the approach  
-   - Code implementation  
-3. Feel free to clone the repository and try out the solutions on your local system or LeetCode.  
-
-```bash
-git clone https://github.com/Deepak5556/Problem-Solving
+ Happy coding! 🚀
