@@ -2,7 +2,7 @@
 
 Welcome to my repository of solutions for various LeetCode problems! 🚀  
 
-This repository is a collection of coding challenges I have solved on [LeetCode](https://leetcode.com/). It serves as a personal archive of my coding journey, and I'm sharing it to help others understand different approaches to problem-solving.  
+This repository is a collection of coding challenges I have solved on [LeetCode](https://github.com/Deepak5556/LeetCodeProblemSolving). It serves as a personal archive of my coding journey, and I'm sharing it to help others understand different approaches to problem-solving.  
 
 ## 🗂️ Repository Structure  
 
@@ -32,4 +32,4 @@ Each folder contains solution files with the problem description, my approach, a
 3. Feel free to clone the repository and try out the solutions on your local system or LeetCode.  
 
 ```bash
-git clone https://github.com/YourUsername/LeetCode-Solutions.git
+git clone https://github.com/Deepak5556/LeetCodeProblemSolving
