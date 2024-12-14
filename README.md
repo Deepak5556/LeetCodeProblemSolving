@@ -7,9 +7,6 @@ This repository contains my solutions to various LeetCode problems, implemented 
 - [Introduction](#introduction)
 - [LeetCode Problem Categories](#leetcode-problem-categories)
 - [How to Use](#how-to-use)
-- [Contributions](#contributions)
-- [License](#license)
-
 ## Introduction
 
 Welcome to my LeetCode problem-solving repository! This is a collection of Java solutions that I have written while practicing LeetCode problems. The problems span various topics such as Arrays, Strings, Dynamic Programming, Graphs, and more.
@@ -34,4 +31,8 @@ Each category has its own folder containing solutions to problems in that partic
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/Deepak5556/LeetCodeProblemSolving
+   git clone https://github.com/<your-username>/LeetCode-Practice.git
+
+
+
+
