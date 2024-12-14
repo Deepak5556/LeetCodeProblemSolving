@@ -34,4 +34,4 @@ Each category has its own folder containing solutions to problems in that partic
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/<your-username>/LeetCode-Practice.git
+   git clone https://github.com/Deepak5556/LeetCodeProblemSolving
