@@ -10,33 +10,35 @@
  */
 class Solution {
     public boolean isPalindrome(ListNode head) {
-        if(head==null||head.next==null)return true;
-
-        ListNode fast=head;
-        ListNode slow=head;
-
-        while(fast.next!=null&&fast.next.next!=null){
-            slow=slow.next;
-            fast=fast.next.next;
-        }
-        ListNode cur=slow.next;
-        ListNode pre=null;
-        ListNode next=null;
-        while(cur!=null)
+        ListNode Fast=head;
+        ListNode Slow=head;
+        while(Fast != null && Fast.next != null)
         {
-           next=cur.next;
-           cur.next=pre;
-           pre=cur;
-           cur= next;
+            Slow=Slow.next;
+            Fast=Fast.next.next;
         }
-        ListNode FirstHalf=head;
-        ListNode SecondHalf=pre;
-        
-        while(SecondHalf!=null)
+        ListNode firsthalf = head;
+        ListNode secondhalf = Slow;
+        Stack<Integer> stk = new Stack<>();
+        ListNode ptr = secondhalf;
+        while (ptr != null) {
+            stk.push(ptr.val);
+            ptr = ptr.next;
+        }
+        ListNode temp = new ListNode(stk.pop());
+        ListNode current = temp;
+        while (!stk.isEmpty()) {
+            current.next = new ListNode(stk.pop());
+            current = current.next;
+        }
+
+        ListNode sec=temp;
+
+        while(sec!=null)
         {
-            if(FirstHalf.val!=SecondHalf.val)return false;
-            FirstHalf=FirstHalf.next;
-            SecondHalf=SecondHalf.next;
+            if(firsthalf.val!=sec.val)return false;
+            firsthalf=firsthalf.next;
+            sec=sec.next;
         }
         return true;
     }
