@@ -19,6 +19,11 @@ class Solution {
         if(root.left == null && root.right == null)return root.val==targetSum;
         boolean left = hasPathSum(root.left,targetSum-root.val);
         boolean right = hasPathSum(root.right,targetSum-root.val);
-        return left||right;
+        boolean ans = left||right;
+        return ans;
+
+
+
+
     }
 }
