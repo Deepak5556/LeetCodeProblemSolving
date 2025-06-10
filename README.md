@@ -1,11 +1,10 @@
-# LeetCode
+# 🧠 LeetCode Solutions in Java
 
-This repository contains my solutions to LeetCode problems.
+Welcome to my LeetCode solutions repository! This repository contains my accepted solutions to various LeetCode problems, written in **Java**. I’m actively solving problems to strengthen my data structures and algorithms skills.
 
-Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
+---
 
- ## Made by 
- - Tut: [GitHub](https://github.com/TutTrue) - [LinkedIn](https://www.linkedin.com/in/mahmoud-hamdy-8b6825245/)
- - Hüsam: [GitHub](https://github.com/husamahmud) - [LinkedIn](https://www.linkedin.com/in/husamahmud/)
+## 📁 Repository Structure
 
- Happy coding! 🚀
+Each problem has its own file named by the problem title or number for easy identification.
+
