@@ -9,6 +9,14 @@
  * }
  */
 class Solution {
+    public static String convert(int[] arr){
+        StringBuffer s = new StringBuffer();
+        for(int i : arr){
+            s.append(i);
+        }
+        return s.toString();
+    }
+
     public int getDecimalValue(ListNode head) {
         ListNode cur = head;
         int count = 0;
@@ -24,13 +32,5 @@ class Solution {
         }
         String str = convert(arr);
         return Integer.parseInt(str,2);
-    }
-
-    public static String convert(int[] arr) {
-        StringBuffer str = new StringBuffer();
-        for(int i=0;i<arr.length;i++){
-            str.append(arr[i]);
-        }
-        return str.toString();
     }
 }
